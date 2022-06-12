@@ -14,12 +14,12 @@ const Home = ({products, bannerData}) => {
       <div className="products-container">
         {
           products.map((product) => {
-            return product.name
+            return <Product key={product._id} product={product} />
           })
         }
       </div>
 
-      <FooterBanner />
+      <FooterBanner footerBanner={ bannerData && bannerData[0]}/>
     </>
   )
 }
