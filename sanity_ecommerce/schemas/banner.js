@@ -12,6 +12,11 @@ export default {
           },
       },
       {
+        name: 'productSlug',
+        title: 'product Slug',
+        type: 'string',
+      },
+      {
           name: 'buttonText',
           title: 'ButtonText',
           type: 'string',

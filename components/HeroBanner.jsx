@@ -12,7 +12,7 @@ const HeroBanner = ({ heroBanner }) => {
         <img src={urlFor(heroBanner.image)} alt="headpone" className='hero-banner-image'/>
         
         <div>
-          <Link href={`/product/${heroBanner.product}`}>
+          <Link href={`#`}>
             <button type='button'>{heroBanner.buttonText}</button>
           </Link>
 
