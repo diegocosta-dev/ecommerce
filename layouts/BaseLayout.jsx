@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from "next/Head"
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -7,9 +6,11 @@ import Footer from '../components/Footer'
 const BaseLayout = ({ children }) => {
   return (
     <div className='layout'>
-      <Head>
-        <title>Headphone Store</title>
-      </Head>
+      <header>
+        <title>
+          <a href="./">Headphone Store</a>
+        </title>
+      </header>
       <header>
         <Navbar></Navbar>
       </header>
